@@ -40,6 +40,7 @@
 
 .backgroundPicture  {
   background-size: cover;
+  background-image: url("../images/water1330252.jpg");
 }
 
 #start {
@@ -52,7 +53,14 @@
   display: inline-block;
 }
 
+.list-group {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+}
+
 .list-group-item {
+  width: 100%;
   margin: 5px;
   padding: 0;
 }

@@ -22,8 +22,7 @@
 </head>
 
 <body>
-
-  <div class="backgroundPicture" style="background-image: url('images/water1330252.jpg');">
+  <div class="backgroundPicture">
 
     <header>
       <div class="container">
@@ -56,7 +55,7 @@
         <div id="add-task" class="bg-light px-2 mb-3 border border-secondary rounded">
           <h2>Add New Task:</h2>
         </div>
-        <form>
+        <form id="task-form">
           <div class="row mb-3 align-items-end">
             <label for="task-name" class="form-label col-sm-2">Task Name:</label>
             <div class="col-sm-10">
@@ -89,146 +88,12 @@
       <!--SAMPLE TASK CARDS-->
       <!--LIST GROUP-->
       <section class="mx-4">
-        <ul class="list-group list-group-horizontal">
-          <li class="list-group-item">
-            <div class="card">
-              <div class="card-body">
-                <div class="row">
-                  <h5 class="col card-title">Task Name</h5>
-                  <h6 class="col card-subtitle text-danger text-end">Due Date: 6/1/2022</h6>
-                </div>
-                <h6 class="card-subtitle mb-2 text-muted">Assigned to: Victoria Fredericksen</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Venenatis cras sed felis eget velit aliquet sagittis id
-                  consectetur. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Eget velit aliquet
-                  sagittis id.</p>
-                <div class="dropdown d-flex justify-content-end">
-                  <button class="btn btn-light dropdown-toggle" type="button" id="progress" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Progress
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="progress">
-                    <li><a class="dropdown-item" href="#">To Do</a></li>
-                    <li><a class="dropdown-item" href="#">In Progress</a></li>
-                    <li><a class="dropdown-item" href="#">Review</a></li>
-                    <li><a class="dropdown-item" href="#">Done</a></li>
-                  </ul>
-                </div>
-              </div>
-          </li>
-          <li class="list-group-item">
-            <div class="card">
-              <div class="card-body">
-                <div class="row">
-                  <h5 class="col card-title">Task Name</h5>
-                  <h6 class="col card-subtitle text-danger text-end">Due Date: 6/11/2022</h6>
-                </div>
-                <h6 class="card-subtitle mb-2 text-muted">Assigned to: Sviatoslav Pechenevskyi</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Venenatis cras sed felis eget velit aliquet sagittis id
-                  consectetur. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Eget velit aliquet
-                  sagittis id.</p>
-                <div class="dropdown d-flex justify-content-end">
-                  <button class="btn btn-light dropdown-toggle" type="button" id="progress" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Progress
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="progress">
-                    <li><a class="dropdown-item" href="#">To Do</a></li>
-                    <li><a class="dropdown-item" href="#">In Progress</a></li>
-                    <li><a class="dropdown-item" href="#">Review</a></li>
-                    <li><a class="dropdown-item" href="#">Done</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
+        <div class="row">
 
-        <ul class="list-group list-group-horizontal">
-          <li class="list-group-item">
-            <div class="card">
-              <div class="card-body">
-                <div class="row">
-                  <h5 class="col card-title">Task Name</h5>
-                  <h6 class="col card-subtitle text-danger text-end">Due Date: 6/1/2022</h6>
-                </div>
-                <h6 class="card-subtitle mb-2 text-muted">Assigned to: Victoria Fredericksen</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Venenatis cras sed felis eget velit aliquet sagittis id
-                  consectetur. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Eget velit aliquet
-                  sagittis id.</p>
-                <div class="dropdown d-flex justify-content-end">
-                  <button class="btn btn-light dropdown-toggle" type="button" id="progress" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Progress
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="progress">
-                    <li><a class="dropdown-item" href="#">To Do</a></li>
-                    <li><a class="dropdown-item" href="#">In Progress</a></li>
-                    <li><a class="dropdown-item" href="#">Review</a></li>
-                    <li><a class="dropdown-item" href="#">Done</a></li>
-                  </ul>
-                </div>
-              </div>
-          </li>
-          <li class="list-group-item">
-            <div class="card">
-              <div class="card-body">
-                <div class="row">
-                  <h5 class="col card-title">Task Name</h5>
-                  <h6 class="col card-subtitle text-danger text-end">Due Date: 6/11/2022</h6>
-                </div>
-                <h6 class="card-subtitle mb-2 text-muted">Assigned to: Sviatoslav Pechenevskyi</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Venenatis cras sed felis eget velit aliquet sagittis id
-                  consectetur. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Eget velit aliquet
-                  sagittis id.</p>
-                <div class="dropdown d-flex justify-content-end">
-                  <button class="btn btn-light dropdown-toggle" type="button" id="progress" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Progress
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="progress">
-                    <li><a class="dropdown-item" href="#">To Do</a></li>
-                    <li><a class="dropdown-item" href="#">In Progress</a></li>
-                    <li><a class="dropdown-item" href="#">Review</a></li>
-                    <li><a class="dropdown-item" href="#">Done</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-        <ul class="list-group list-group-horizontal w-50">
-          <li class="list-group-item">
-            <div class="card">
-              <div class="card-body">
-                <div class="row">
-                  <h5 class="col card-title">Task Name</h5>
-                  <h6 class="col card-subtitle text-danger text-end">Due Date: 6/1/2022</h6>
-                </div>
-                <h6 class="card-subtitle mb-2 text-muted">Assigned to: Victoria Fredericksen</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Venenatis cras sed felis eget velit aliquet sagittis id
-                  consectetur. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Eget velit aliquet
-                  sagittis id.</p>
-                <div class="dropdown d-flex justify-content-end">
-                  <button class="btn btn-light dropdown-toggle" type="button" id="progress" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Progress
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="progress">
-                    <li><a class="dropdown-item" href="#">To Do</a></li>
-                    <li><a class="dropdown-item" href="#">In Progress</a></li>
-                    <li><a class="dropdown-item" href="#">Review</a></li>
-                    <li><a class="dropdown-item" href="#">Done</a></li>
-                  </ul>
-                </div>
-              </div>
-          </li>
-        </ul>
+          <ul id="tasks-list" class="list-group list-group-horizontal-xl">
+          
+          </ul> 
+        </div>
       </section>
 
     </main>
