@@ -109,3 +109,9 @@ class TaskManager {
   }
 
 }
+
+//EXPORTING
+module.exports.addTask = TaskManager.addTask;
+module.exports.deleteTask = TaskManager.deleteTask;
+module.exports.getTaskById = TaskManager.getTaskById;
+module.exports.TaskManager = TaskManager;
