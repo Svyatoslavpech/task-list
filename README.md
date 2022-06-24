@@ -1,5 +1,5 @@
 # task-list
-For our final project with Generation USA
+For my final project with Generation USA
 
 
 Junior Web Developer - Final Project - Task Planner Web App
