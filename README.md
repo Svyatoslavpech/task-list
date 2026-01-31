@@ -1,4 +1,4 @@
-# task-list
+# Task-List
 
 ✅ Task List — Task Management & Data Persistence App
 
