@@ -1,90 +1,90 @@
-# Task-List
+# ✅ Task List — Task Management & Data Persistence App
 
-✅ Task List — Task Management & Data Persistence App
+A lightweight, product-focused task management web application built to demonstrate **reliability, data consistency, and user-centered UI behavior**.  
+Designed with a **QA and production mindset**, emphasizing predictable state management and data persistence.
 
-A lightweight task management web application focused on data reliability, clean UI behavior, and predictable user interactions.
-Built to demonstrate production-minded frontend development with attention to validation, persistence, and edge cases.
+---
 
-🔍 Overview
+## 🔍 Overview
 
-Task List allows users to create, manage, and track tasks in a simple, intuitive interface.
-Unlike basic demos, this project emphasizes state consistency and data persistence, ensuring tasks are not lost between browser sessions.
+**Task List** allows users to create, manage, and track tasks through a clean and intuitive interface.  
+The project focuses not on feature overload, but on **correctness, validation, and data integrity**, ensuring tasks persist reliably across browser sessions.
 
-✨ Key Features
+---
 
-➕ Create, edit, and delete tasks (full CRUD)
+## ✨ Key Features
 
-✅ Input validation to prevent empty or invalid entries
+- ➕ Create, edit, and delete tasks (full CRUD)
+- ✅ Input validation to prevent empty or invalid entries
+- 💾 Persistent data storage using **LocalStorage**
+- 🔄 Automatic task recovery on page reload
+- 🧭 Clean, predictable UI behavior
+- 🛡️ Edge-case handling for user input and data state
 
-💾 Persistent data storage using LocalStorage
+---
 
-🔄 Automatic state recovery on page reload
+## 🧠 Product & QA Mindset
 
-🧭 Clean and intuitive UI with predictable behavior
+This project was built with **production readiness** in mind:
 
-🛡️ Edge-case handling for user input and data state
+- **Reliability:** Tasks persist without loss or corruption  
+- **Usability:** Simple interaction flows and clear feedback  
+- **Consistency:** Controlled state changes and predictable UI updates  
+- **Risk Reduction:** Validation and defensive logic against user errors  
 
-🧠 Product & Engineering Focus
+These principles mirror real-world requirements in **QA, frontend, and AI product support roles**.
 
-This project was designed with a QA and product mindset, not just feature delivery:
+---
 
-Reliability: Tasks persist across sessions without data corruption
+## 🛠️ Tech Stack
 
-Usability: Clear visual feedback and simple interaction flows
+- **JavaScript (Vanilla)** — application logic and state handling  
+- **HTML** — structure  
+- **CSS** — layout and styling  
+- **Browser LocalStorage** — client-side data persistence  
 
-Maintainability: Structured JavaScript logic and readable code
+---
 
-Risk Reduction: Validation and controlled state changes prevent inconsistent UI states
+## 🔄 How It Works (High-Level Flow)
 
-🛠️ Tech Stack
+1. User enters a task  
+2. Input is validated before creation  
+3. Task is stored in LocalStorage  
+4. On page reload, tasks are restored from storage  
+5. UI reflects the current, consistent state  
 
-JavaScript (Vanilla) — application logic and state handling
+This approach ensures **data integrity and predictable behavior**.
 
-HTML / CSS — layout and styling
+---
 
-Browser LocalStorage — client-side data persistence
+## 🎯 Why This Project Matters
 
-📂 How It Works (High-Level)
+Although simple in scope, **Task List** demonstrates skills essential for junior engineering roles:
 
-User inputs a task
+- Attention to **edge cases and validation**
+- Understanding of **state and data persistence**
+- Product-oriented thinking beyond “happy path” solutions
+- Clean and maintainable frontend logic
 
-Input is validated before creation
+---
 
-Task is saved to LocalStorage
+## 🚀 Possible Enhancements
 
-On page load, tasks are restored from storage
+- Automated unit or UI tests  
+- Task prioritization and filtering  
+- Backend persistence (API + database)  
+- Error monitoring and logging  
 
-UI updates reflect the current, consistent state
+---
 
-This flow mirrors real-world frontend reliability requirements where user data must not be lost or corrupted.
+## 👤 Author
 
-🎯 Why This Project Matters
-
-While simple on the surface, Task List demonstrates core skills relevant to QA, frontend, and AI product support roles:
-
-Attention to edge cases and user errors
-
-Understanding of state management and persistence
-
-Product-oriented thinking beyond “happy paths”
-
-Clean separation between UI and logic
-
-🚀 Possible Extensions
-
-Automated UI or unit tests
-
-Task prioritization and filtering
-
-Backend persistence (API + database)
-
-Error monitoring and logging
-
-👤 Author
-
-Slav Pechenevskyi
+**Slav Pechenevskyi**  
 Product-focused builder with experience in QA, AI systems, and production reliability
 
-🔗 GitHub: https://github.com/Svyatoslavpech
+- GitHub: https://github.com/Svyatoslavpech  
+- LinkedIn: https://linkedin.com/in/svyatsolution  
 
-🔗 LinkedIn: https://linkedin.com/in/svyatsolution
+---
+
+⭐ If you find this project useful, feel free to explore or extend it.
